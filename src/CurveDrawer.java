@@ -3,7 +3,7 @@ import java.awt.*;
 
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
-public class DrawRectangle {
+public class CurveDrawer {
 
     // ezt a részt nem kell módosítani
     static int WIDTH = 320;
@@ -12,7 +12,7 @@ public class DrawRectangle {
     public static void main(String[] args) {
         JFrame jFrame = new JFrame("I'm here...");
         jFrame.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        DrawRectangle.ImagePanel panel = new DrawRectangle.ImagePanel();
+        CurveDrawer.ImagePanel panel = new CurveDrawer.ImagePanel();
         panel.setPreferredSize(new Dimension(WIDTH, HEIGHT));
         jFrame.add(panel);
         jFrame.setLocationRelativeTo(null);
